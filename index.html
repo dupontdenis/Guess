@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+  <link href="CSS/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <label for="level">Choose your level:</label>
+  <select name="guessLevel" id="guessLevel" class="guessLevel">
+    <option value="">--Choose an Level--</option>
+    <option value="low">Low</option>
+    <option value="high">High</option>
+  </select>
+  <label for="guessField">Enter a guess: </label>
+  <input type="number" min=0 disabled id="guessField" class="guessField" placeholder="Set a Level First">
+  <input type="submit" value="P" disabled class="guessSubmit disabled">
+  <script src="JS/main.js" type="module"></script>
+</body>
+
+</html>
